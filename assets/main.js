@@ -1,9 +1,5 @@
 //Istruzioni:
 
-
-
-
-
 //Creare un oggetto che descriva uno studente, con le seguenti proprietà:
 //nome,
 //cognome
@@ -31,8 +27,8 @@ for(var i = 0; i <studenti.length ; i++){
 //Dare la possibilità all’utente, attraverso 3 prompt(), di aggiungere un nuovo oggetto studente inserendo nell’ordine: nome, cognome e età.
 
 
-for(var j=0; j < 3; j++){
+
 var nuovoStudente ={nome: prompt('inserisci un nome'), cognome :prompt('inserisci il cognome'), età:prompt("inserisci l'età") }
-studenti.push(nuovoStudente);
-}
+studenti.push(nuovoStudenterr);
+
 console.log(studenti);
